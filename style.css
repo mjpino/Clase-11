@@ -1,8 +1,17 @@
+::-moz-selection {
+  background: #fed136; }
+
+::selection {
+  background: #fed136; }
+
 header {
   background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 757px; }
+  header nav {
+    position: fixed;
+    width: 90%; }
 
 .container h3 {
   font-family: 'Kaushan Script', cursive;
